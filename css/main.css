@@ -1,0 +1,377 @@
+html,div,span,h1,h2,p,a,img,fieldset,form,label,header{
+margin:0;
+padding:0;
+border:0;
+font-size:100%;
+font:inherit;
+vertical-align:baseline;
+}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+
+/* Partie Signup */
+body{
+	background: url(https://superdevresources.com/wp-content/uploads/2015/12/blurred2.jpg) no-repeat center center fixed;
+  	background-size: cover;
+  	background-position: 50% 50%;
+}
+
+/* Titres */
+h1 {
+	font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    padding: 10px 0 10px;
+    margin: 10px 0;
+    color: #fff;
+    font-family: 'Old Standard TT', serif;
+}
+
+#signup h2 {
+	text-align: center;
+
+}
+/*-- //titres --*/
+
+/*-- contenu --*/
+
+.form {
+    width: 720px;
+    margin: 0 auto;
+    background: rgba(10, 10, 10, 0.2);
+    padding: 2em 1em 2em 2em;
+    box-sizing: border-box;
+    border-right: 6px solid #0cbf86;
+    border-radius: 30px;
+    box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.27);
+}
+
+label.titre {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    color: #fff;
+}
+
+input[type="text"], input[type="url"], input[type="date"]{
+	width: 100%;
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 12px 13px;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #fff;
+	background: rgba(14, 14, 14, 0.54);
+	margin: 0px auto 10px;
+}
+
+select.form-control {
+	font-size: 14px;
+    color: #fff;
+    padding: 12px 13px;
+    width: 100%;  
+    box-sizing: border-box;
+    border: none;
+	outline: none;
+	border: 1px solid #fff;
+	background: rgba(14, 14, 14, 0.54);
+	width: 47%;
+}
+
+.userfirstname, .userlastname, .userdate, .userdate, .userphoto {
+    float: left;
+    width: 49%;
+}
+
+input[name="Prenom"],input[name="Nom"],input[name="Dnaissance"],input[name="PURL"]{
+	width: 96%;
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 12px 13px;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #fff;
+	background: rgba(14, 14, 14, 0.54);
+	margin: 0px auto 10px;
+}
+
+#friend_list{
+	border: none;
+	border-top: 1px solid gray;
+}
+#friend_list p {
+	cursor: pointer;
+	margin-top: 15px;
+	background: #ffffff1a;
+	padding: 2px;
+	height: 30px;
+}
+
+#hobbies,#music {
+	border: none;
+}
+
+#friend_list p input[type='text'] {
+	position: absolute;
+	right: 52px;
+	width: 224px;
+
+}
+
+
+#select_option {
+	position: absolute;
+left: 565px;
+}
+
+#flex_form {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+}
+
+#register_button {
+	width: 200px;
+	height: 69px;
+	margin: 10px;
+	position: relative;
+	left: 0px;
+	background: #069e06;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#cancel_button {
+	width: 200px;
+	height: 69px;
+	margin: 10px;
+	position: relative;
+	margin-left: 140px;
+	background: #b95811;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#friend_list_option{
+	position: relative;
+	height: 314px;
+	overflow-y:auto;
+	border-top: 2px solid white;
+}
+
+.white {
+	color: white;
+	font-weight: bold;
+	font-size: 17pt;
+	margin-bottom: 15px;
+}
+
+/* Partie Profile */
+
+body{
+	background-color: #ddd;
+}
+
+#profil_container{
+	width: 900px;
+	min-height: 700px;
+	margin: 100px auto;
+	box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+	background: #CA7C4E;
+  	background: -webkit-linear-gradient(bottom left, #EEBE6C 0%, #CA7C4E 100%);
+	background: -moz-linear-gradient(bottom left, #EEBE6C 0%, #CA7C4E 100%);
+	background: -o-linear-gradient(bottom left, #EEBE6C 0%, #CA7C4E 100%);
+	background: linear-gradient(to top right, #EEBE6C 0%, #CA7C4E 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEBE6C', endColorstr='#CA7C4E',GradientType=1 ); 
+}
+
+a {
+	text-decoration: none;
+}
+
+#profile{
+	width: 300px;
+	float: left;
+	border-right: 5px solid brown;
+	border-left: 5px solid brown;
+	margin: 20px;
+	min-height: 600px;
+	background: #fff;
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+	padding: 20px;
+	height: 620px;
+}
+
+#user_image{
+	width: 100px;
+	height: 100px;
+	margin-left: 90px;
+	margin-top: 10px;
+}
+
+#userdetails{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	left: -15px;
+	padding-top: 40px;
+	margin-bottom: 100px;
+	background: #fff;
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+	width: 492px;
+	height: 274px;
+	top: 21px;
+	position: relative;
+	border-right: 5px solid brown;
+	border-left: 5px solid brown;
+}
+
+
+#user_friends {
+	position: relative;
+	left: -15px;
+	top: -63px;
+	background: #fff;
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3); 
+	padding: 20px;
+	padding-left: 56px;
+	border-right: 5px solid brown;
+	border-left: 5px solid brown;
+	height: 290px;
+	overflow-y: auto;
+}
+
+#user_friends p {
+
+	height: 50px;
+	border: 1px solid;
+	padding: 5px;
+	color: #CA7C4E;
+	margin-top: 5px;
+}
+
+
+#user_friends  img {
+	width: 50px;
+	height: 50px;
+}
+
+.friendname_2 {
+	margin-left: 200px;
+}
+
+#profil_container > p > a {
+	position: relative;
+	right: -775px;
+	top: 5px;
+	text-decoration: none;
+	padding: 2x;
+	border: 1px solid #CA7C4E;
+	border-radius: 10px;
+	cursor: pointer;
+	color: white;
+	background: #CA7C4E;
+}
+/* Partie contact search */
+
+body{
+	background-color: #ddd;
+}
+
+#contact_container{
+	width: 700px;
+	min-height: 900px;
+	margin: 100px auto;
+	padding: 50px;
+	border: 5px dashed  #CA7C4E;
+	background-color: #fff;
+}
+
+#contact_container  p {
+	position: relative;
+	color: #CA7C4E;
+	font-size: 20px;
+	background: #E3D6D6;	
+}
+
+#contact_container  p  a {
+	position: relative;
+	margin-left: 50px;
+	right: -322px;
+	top: -40px;
+	text-decoration: none;
+	padding: 2px;
+	border: 1px solid #CA7C4E;
+	border-radius: 10px;
+	cursor: pointer;
+	color: white;
+	background: #CA7C4E;
+}
+
+
+
+#contact_container input {
+	width: 565px;
+	position: relative;
+	background: #e3d6d6;
+	border-radius: 10px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 20px;
+	border: 1px solid #9b8e8e;
+	color: gray;
+}
+
+
+#content_search	{
+	padding: 20px;
+	overflow-y: auto;
+}
+
+.listed_images {
+	width: 50px;
+	height: 50px;
+	margin-left: 60px;
+	margin-top: 5px;
+	position: relative;
+	margin-right: 15px;
+}
+
+#content_search a {
+
+	text-decoration: none;
+	color: black;
+
+}
+
+.listcontact1 {
+	position: relative;
+	top: -20px;
+	font-size: 17px;
+}
+.listcontact2 {
+	position: relative;
+	top: -20px;
+	left: 15px;
+}

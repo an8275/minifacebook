@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="checkbox.css">
+</head>
+<body>
+<div id="container">
+		<div id="one" class="child" onclick="test();"></div>
+		<div class="child two"></div>
+		<div class="child tree"></div>
+		<div class="child four"></div>
+
+</div>
+
+
+<script type="text/javascript">
+	function $(e){
+		return document.getElementById(e);
+	}
+	var flag = false;
+	var content = $("one");
+
+	function test(){
+
+		if(flag == false){
+
+			content.setAttribute("class","child one");
+			
+			flag = true;
+		}else {
+			content.setAttribute("class","child");
+			flag = false;
+		}
+
+	}
+
+
+</script>
+</body>
+</html>
